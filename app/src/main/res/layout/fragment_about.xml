@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/linearLayout_padding_about"
+        tools:context=".fragment.AboutFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/about_nasa"
+            android:textSize="@dimen/about_nasa_textSize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/iv_about_nasa_layout_height"
+            android:src="@drawable/nasa_about" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:text="@string/about_text"
+            android:textSize="@dimen/textView_textSize_about" />
+
+        <Button
+            android:id="@+id/btnOpenMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/btnOpenMap_marginTop"
+            android:text="@string/open_map" />
+    </LinearLayout>
+</ScrollView>

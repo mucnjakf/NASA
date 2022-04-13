@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/linearLayout_padding_item_pager">
+
+        <ImageView
+            android:id="@+id/ivItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ivItemPager_layout_height"
+            tools:src="@drawable/flat_about" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/linearLayout_layout_marginTop_item_pager">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="@string/textView_item_pager_date"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivRead"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                tools:src="@drawable/red_flag" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            tools:text="yyyy-MM-dd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textView_layout_marginTop_item_pager"
+            android:text="@string/textView_item_pager_title"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            tools:text="Minus itaque ducimus ratione sequi voluptates quasi ipsa." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textView_layout_marginTop_item_pager"
+            android:text="@string/textView_item_pager_explanation"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvExplanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            tools:text="Minus itaque ducimus ratione sequi voluptates quasi ipsa minima. Sunt qui autem reiciendis aut. Tempore non suscipit rerum voluptas. Harum animi officiis laborum magnam tenetur deleniti accusantium nisi. Dolores consectetur explicabo autem consequatur. Earum provident incidunt et dolore." />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/textView_layoutMargin_add_item"
+            android:gravity="center"
+            android:text="@string/textView_add_item"
+            android:textSize="@dimen/textView_textSize_add_item" />
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/etTitle_layout_marginHorizontal"
+            android:layout_marginVertical="@dimen/etTitle_layout_marginVertical"
+            android:background="@color/cardview_shadow_start_color"
+            android:hint="@string/editText_insert_title"
+            android:padding="@dimen/etTitle_padding" />
+
+        <EditText
+            android:id="@+id/etExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/etExplanation_layout_marginHorizontal"
+            android:layout_marginVertical="@dimen/etExplanation_layout_marginVertical"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="top|left"
+            android:hint="@string/editText_insert_explanation"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:maxLines="10"
+            android:minLines="6"
+            android:padding="@dimen/etExplanation_padding"
+            android:scrollbars="vertical"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnInsertImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/btnInsertImage_layout_marginHorizontal"
+            android:layout_marginVertical="@dimen/btnInsertImage_layout_marginVertical"
+            android:text="@string/btnInsertImage_insert_image" />
+
+        <TextView
+            android:id="@+id/tvImagePath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/tvImagePath_layout_marginHorizontal"
+            android:layout_marginVertical="@dimen/tvImagePath_layout_marginVertical"
+            android:gravity="center"
+            tools:text="C://aslkdasklj" />
+
+        <Button
+            android:id="@+id/btnAddItem"
+            android:layout_width="@dimen/btnAddItem_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="@dimen/btnAddItem_layout_marginVertical"
+            android:text="@string/btnAddItem_add_item" />
+
+    </LinearLayout>
+</ScrollView>

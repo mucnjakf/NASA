@@ -1,0 +1,42 @@
+<resources>
+    <!-- AndroidManifest -->
+    <string name="app_name">NASA 🚀</string>
+
+    <!-- HostActivity -->
+    <string name="exit">Exit</string>
+    <string name="exit_confirmation">Are you sure you want to exit?</string>
+
+    <!-- ItemAdapter -->
+    <string name="delete">Delete item</string>
+    <string name="delete_confirmation">Are you sure you want to delete this item?</string>
+    <string name="positive_button_ok">OK</string>
+    <string name="negative_button_cancel">Cancel</string>
+
+    <!-- activity_splash_screen -->
+    <string name="tvLoading_text">Refueling rocket, please wait…</string>
+    <string name="require_internet_connection">Internet connection is required to download data.</string>
+
+    <!-- fragment_add_item -->
+    <string name="textView_add_item">Add item</string>
+    <string name="editText_insert_title">Insert title</string>
+    <string name="editText_insert_explanation">Insert explanation</string>
+    <string name="btnInsertImage_insert_image">Insert image</string>
+    <string name="btnAddItem_add_item">Add item</string>
+
+    <!-- item_pager -->
+    <string name="textView_item_pager_date">Date</string>
+    <string name="textView_item_pager_title">Title</string>
+    <string name="textView_item_pager_explanation">Explanation</string>
+
+    <!-- navigation_menu -->
+    <string name="items">Items</string>
+    <string name="about">About</string>
+    <string name="add_item">Add item</string>
+
+    <!-- fragment_about -->
+    <string name="about_text">The National Aeronautics and Space Administration is an independent agency of the U.S. federal government responsible for the civilian space program, as well as aeronautics and space research.</string>
+    <string name="about_nasa">About NASA</string>
+    <string name="open_map">Headquarters</string>
+    <string name="title_activity_maps">NASA Headquarters</string>
+
+</resources>
