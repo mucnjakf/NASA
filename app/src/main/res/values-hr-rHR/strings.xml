@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AndroidManifest -->
+    <string name="app_name">NASA 🚀</string>
+
+    <!-- HostActivity -->
+    <string name="exit">Izlaz</string>
+    <string name="exit_confirmation">Jeste li sigurni da želite izaći?</string>
+
+    <!-- ItemAdapter -->
+    <string name="delete">Obriši</string>
+    <string name="delete_confirmation">Jeste li sigurni da želite obrisati?</string>
+    <string name="positive_button_ok">OK</string>
+    <string name="negative_button_cancel">Odustani</string>
+
+    <!-- activity_splash_screen -->
+    <string name="tvLoading_text">Punjenje rakete gorivom, molimo pričekajte…</string>
+    <string name="require_internet_connection">Internet veza je potrebna kako bi preuzeli podatke.</string>
+
+    <!-- fragment_add_item -->
+    <string name="textView_add_item">Dodaj novi</string>
+    <string name="editText_insert_title">Unesite naslov</string>
+    <string name="editText_insert_explanation">Unesite objašnjenje</string>
+    <string name="btnInsertImage_insert_image">Unesite sliku</string>
+    <string name="btnAddItem_add_item">Dodaj</string>
+
+    <!-- item_pager -->
+    <string name="textView_item_pager_date">Datum</string>
+    <string name="textView_item_pager_title">Naslov</string>
+    <string name="textView_item_pager_explanation">Objašnjenje</string>
+
+    <!-- navigation_menu -->
+    <string name="items">Predmeti</string>
+    <string name="about">O nama</string>
+    <string name="add_item">Dodaj novi</string>
+
+    <!-- fragment_about -->
+    <string name="about_text">Nacionalna uprava za aeronautiku i svemir neovisna je agencija američke savezne vlade odgovorna za civilni svemirski program, kao i za aeronautiku i svemirska istraživanja.</string>
+    <string name="about_nasa">O NASA-i</string>
+    <string name="open_map">Glavno sjedište</string>
+    <string name="title_activity_maps">NASA glavno sjedište</string>
+</resources>
