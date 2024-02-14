@@ -1,11 +1,11 @@
 # NASA
 
-NASA Diary Android Mobile Application - 2020.
+NASA Log Android Mobile Application - 2020.
 
 ---
 
 ### **Overview**
-NASA is a Android mobile application for creating log with images from space provided by National Aeronautics and Space Administration.
+NASA is an Android mobile application that allows users to create logs enriched with captivating images captured from space, courtesy of the National Aeronautics and Space Administration.
 
 ---
 
@@ -20,7 +20,7 @@ NASA is a Android mobile application for creating log with images from space pro
 ---
 
 ### **Tools**
-- Source Control: JetBrains Space
+- Source Control: GitHub
 - IDE: Android Studio
 
 ---
