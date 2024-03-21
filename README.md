@@ -1,4 +1,4 @@
-# <img src="nasa.png" width="25"/> NASA
+# <img src="nasa.svg" width="25"/> NASA
 
 ### **👁️ Overview**
 NASA Log Android Mobile Application - 2020.
