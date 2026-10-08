@@ -16,9 +16,3 @@ NASA Log Android Mobile Application - 2020.
 - Gson
 - Picasso
 - MySql
-
-#
-
-### **🛠️ Tools**
-- Source Control: GitHub
-- IDE: Android Studio
